@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #2e5e2e;
+    color: white;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.hero {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+.service-list, .testimonial-list {
+    display: grid;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.service-item, .testimonial-item {
+    border: 1px solid #ddd;
+    padding: 1rem;
+}
+
+footer {
+    background-color: #2e5e2e;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 500px;
+    margin-top: 1rem;
+}
+
+input, textarea {
+    padding: 0.5rem;
+}
+
+button {
+    padding: 0.5rem;
+    background-color: #2e5e2e;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #437543;
+}
